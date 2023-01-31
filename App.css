@@ -1,0 +1,117 @@
+body {
+    background-color: rgba(20, 1, 39, 0.947);
+  }
+  
+  .App {
+    text-align: center;
+    font-family: "Source Code Pro";
+    color: #39ff14;
+  }
+  
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: stroke;
+    background-color: #39ff14;
+    border-width: 20%;
+    border-radius: 50%;
+    border-color: #f77931;
+    
+  
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 1s linear; 
+      animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    }
+    .App-logo:hover{
+      animation: App-logo-spin infinite 0.40s linear;
+      box-shadow:1px 1px 40px #ff6bdd;
+      -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; 
+    }
+    .App-logo:active{
+      animation: App-logo-negative-spin infinite 0.25s linear; 
+    }
+  }
+  
+  .App-header {
+    background-color: inherit;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-logoCredit {
+    font-size: 8px;
+    min-height: -1vh;
+    align-items: flex-end;
+  }
+  
+  
+  .App-mainContent {
+    font-size: calc(10px + 2vmin);
+    padding-top: 3ch;
+    padding-bottom: 3ch;
+    justify-content: left;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .App-terminalText {
+    font-weight: bolder;
+    text-align: left;
+  }
+  
+  #App-mainContentTitle {
+    font-weight: bolder;
+    font-size: 6vh;
+    color: rgb(255, 111, 241);
+    padding-bottom: 3ch;
+    justify-content: center;
+  }
+  
+  #App-mainContentTitle:hover {
+    color: #ff2042;
+    text-shadow:0px 0px 30px #ff95e6;
+    -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+  }
+  
+  .App-searchBtn {
+    border-radius: 50px;
+    size: 1px;
+  }
+  
+  .App-searchBtn:hover {
+    color: #ff2042;
+    text-shadow:1px 1px 30px #ff95e6;
+  }
+    
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes App-logo-negative-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
